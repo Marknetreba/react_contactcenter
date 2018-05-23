@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './styles/App.css';
-import 'semantic-ui/dist/semantic.min.css'
+import 'semantic-ui/dist/semantic.min.css';
+import 'semantic-ui/dist/semantic.min'
 
 class App extends Component {
   render() {
@@ -9,6 +10,14 @@ class App extends Component {
         <header className="App-header">
           <i className="huge phone volume icon"></i>
           <h1 className="App-title">Контактцентр</h1>
+            <div className="ui two item menu black">
+                <div className="item active">
+                    О компании
+                </div>
+                <a className="item">
+                    О контактцентре
+                </a>
+            </div>
         </header>
           <div className="ui middle aligned center aligned grid">
               <div className="column">
@@ -31,7 +40,8 @@ class App extends Component {
                                   <input type="password" name="password" placeholder="Пароль"/>
                               </div>
                           </div>
-                          <div className="ui fluid large black submit button">Войти</div>
+
+                          <button className="ui fluid large black submit button">Войти</button>
                       </div>
                   </form>
               </div>

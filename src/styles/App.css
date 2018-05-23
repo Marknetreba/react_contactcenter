@@ -8,7 +8,7 @@
 
 .App-header {
   background-color: #222;
-  height: 170px;
+  /*height: 170px;*/
   padding: 25px;
   color: white;
 }
@@ -19,4 +19,8 @@
 
 .content {
   margin-top: 80px;
+}
+
+.column {
+  max-width: 55%;
 }
