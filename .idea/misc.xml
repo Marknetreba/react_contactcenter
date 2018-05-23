@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="IvyProjectSettings">
+    <dependencies />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
+  <component name="PreferredVcsStorage">
+    <preferredVcsName>ApexVCS</preferredVcsName>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/../react_contact/out" />
+  </component>
+</project>
