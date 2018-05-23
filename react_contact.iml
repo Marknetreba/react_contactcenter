@@ -4,5 +4,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../react_contact" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>
