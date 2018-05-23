@@ -10,13 +10,16 @@ class App extends Component {
         <header className="App-header">
           <i className="huge phone volume icon"></i>
           <h1 className="App-title">Контактцентр</h1>
-            <div className="ui large two item menu black">
+            <div className="ui large three item menu black">
                 <div className="item active">
                     О компании
                 </div>
                 <a className="item">
-                    О контактцентре
+                    О продукте
                 </a>
+                <div className="item">
+                    Вход
+                </div>
             </div>
         </header>
           <div className="ui middle aligned center aligned grid">
