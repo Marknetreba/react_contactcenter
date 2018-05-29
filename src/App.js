@@ -2,39 +2,43 @@ import React, {Component} from 'react';
 import './styles/App.css';
 import 'semantic-ui/dist/semantic.min.css';
 import 'semantic-ui/dist/semantic.min'
-import { Button, Tab } from 'semantic-ui-react'
+import { Button, Tab, Form, Message, Input, Segment, Grid} from 'semantic-ui-react'
+
+
+function click() {
+  console.log("##########")
+}
 
 const panes = [
     { menuItem: 'О компании', render: () => <Tab.Pane>Описание компании</Tab.Pane> },
     { menuItem: 'О продукте', render: () => <Tab.Pane>Описание контактцентра</Tab.Pane> },
     { menuItem: 'Войти', render: () => <Tab.Pane>
-            <div className="ui middle aligned center aligned grid">
-            <div className="column">
-                <h2 className="ui black image header">
-                    <div className="content">
-                        Войти в личный кабинет
-                    </div>
-                </h2>
-                <form className="ui large form">
-                    <div className="ui stacked segment">
-                        <div className="field">
+         <Grid columns={2} centered>
+            <Grid.Column>
+                <Message
+                    attached
+                    header='Добро пожаловать!'
+                    content='Заполните поля, чтобы зайти на сайт'
+                    size={'large'}
+                />
+                <Form unstackable size={'large'} error={false}>
+                    <Segment size={'large'}>
+                        <Form.Field>
                             <div className="ui left icon input">
-                                <i className="user icon"></i>
-                                <input type="text" name="email" placeholder="E-mail адрес"/>
+                                <Input type="text" name="email" icon={'user'} iconPosition={'left'} placeholder="E-mail адрес"/>
                             </div>
-                        </div>
-                        <div className="field">
+                        </Form.Field>
+                        <Form.Field>
                             <div className="ui left icon input">
-                                <i className="lock icon"></i>
-                                <input type="password" name="password" placeholder="Пароль"/>
+                                <Input type="password" name="password" icon={'lock'} iconPosition={'left'} placeholder="Пароль"/>
                             </div>
-                        </div>
-
-                        <Button fluid primary>Войти</Button>
-                    </div>
-                </form>
-            </div>
-        </div>
+                        </Form.Field>
+                        <Button fluid primary size={'large'} compact onClick={click}>Войти</Button>
+                        <Message error header={'Ошибка'}/>
+                    </Segment>
+                </Form>
+            </Grid.Column>
+        </Grid>
         </Tab.Pane> },
 ];
 
@@ -43,10 +47,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <i className="huge phone volume icon"></i>
+          <i className="huge phone volume icon"/>
           <h1 className="App-title">Контактцентр</h1>
         </header>
-          <Tab panes={panes}/>
+          <Tab menu={{stackable:true, widths:3, color: 'black', pointing: true, size: 'huge', borderless:true, secondary: true, attached:false, tabular:false}} panes={panes}/>
       </div>
     );
   }

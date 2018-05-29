@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f504c2fb-9b71-43a2-b499-7b9d3070ebcf" name="Default" comment="" />
+    <list default="true" id="f504c2fb-9b71-43a2-b499-7b9d3070ebcf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../react_contact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react_contact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react_contact/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react_contact/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react_contact/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react_contact/src/styles/App.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,20 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../react_contact/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../react_contact/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -33,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../react_contact/public/index.html">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../react_contact/src/styles/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="296">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -81,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/Menu.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/../react_contact/public/index.html" />
+        <option value="$PROJECT_DIR$/../react_contact/src/styles/App.css" />
         <option value="$PROJECT_DIR$/../react_contact/src/App.js" />
       </list>
     </option>
@@ -126,6 +122,17 @@
               <item name="react_contact" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_contact" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_contact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_contact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_contact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_contact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,7 +283,7 @@
       <workItem from="1527096753804" duration="6525000" />
       <workItem from="1527105732890" duration="1086000" />
       <workItem from="1527195362203" duration="747000" />
-      <workItem from="1527587063566" duration="2330000" />
+      <workItem from="1527587063566" duration="9202000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1527098682125</created>
@@ -320,18 +327,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527106810787</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new react-semantic package added">
+      <created>1527589743333</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527589743333</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10688000" />
+    <option name="totallyTimeSpent" value="17560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50066936" side_tool="true" weight="0.32892805" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="IvyIDEA" order="7" />
@@ -347,11 +361,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32892805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" visible="true" weight="0.32892805" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23788546" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20117474" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25970548" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49933067" weight="0.20117474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25970548" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -402,7 +416,8 @@
     <MESSAGE value="styles ...." />
     <MESSAGE value="new page" />
     <MESSAGE value="router added" />
-    <option name="LAST_COMMIT_MESSAGE" value="router added" />
+    <MESSAGE value="new react-semantic package added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new react-semantic package added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../react_contact/package.json">
@@ -484,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../react_contact/src/styles/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../react_contact/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -505,6 +513,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../react_contact/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../react_contact/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -512,17 +527,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../react_contact/package.json">
+    <entry file="file://$PROJECT_DIR$/../react_contact/src/styles/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="296">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../react_contact/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
