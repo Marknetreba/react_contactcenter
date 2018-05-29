@@ -21,7 +21,7 @@ const panes = [
                     content='Заполните поля, чтобы зайти на сайт'
                     size={'large'}
                 />
-                <Form unstackable size={'large'} error={false}>
+                <Form unstackable={true} size={'large'} error={false}>
                     <Segment size={'large'}>
                         <Form.Field>
                             <div className="ui left icon input">
@@ -41,6 +41,7 @@ const panes = [
         </Grid>
         </Tab.Pane> },
 ];
+
 
 class App extends Component {
   render() {
